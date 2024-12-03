@@ -1,0 +1,82 @@
+body
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: white; 
+}
+
+.weather-container
+{
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#datetime
+{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.2em; /* Increase font size */
+}
+
+input 
+{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button 
+{
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover 
+{
+    background-color: #0056b3;
+}
+
+#weatherResult 
+{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#forecastTable 
+{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#forecastTable th, #forecastTable td 
+{
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    text-align: center;
+}
+
+#forecastTable th 
+{
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+#forecastTable img 
+{
+    width: 50px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 5px;
+}
